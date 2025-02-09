@@ -1,0 +1,40 @@
+<html>
+<head>
+    <h1>INST377 - LAB 2 CONTACT ME</h1>
+</head>
+<style>
+    body {
+        background-color: blanchedalmond;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .space{
+        margin-top: 30px;
+    }
+    .left{
+        margin-left: 5px;
+    }
+    .submit{
+        background-color: aquamarine;
+        transition-duration: .5;
+        font-size: 19px;
+    }
+    .submit:hover{
+        background-color: red;
+    }
+</style>
+<body>
+<form name = "lab2input"  action="secondpage.html" method="GET">
+<label for="FullName">Name: </label>
+<input type="text" id="FullName"></br>
+<div class="space"></div>
+<label for="email">Email: </label>
+<input type="text" id="Email"></br>
+
+
+    <div class ="space"></div>
+    <label for="subm"></label>
+    <div class="left"></div>
+        <input type="submit" id="subm" class ="submit" value ="submit">
+</form>
+</body>
+</html>
